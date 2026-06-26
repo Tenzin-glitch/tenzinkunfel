@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/gif" href="logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenzin Kunfel | Portfolio</title>
+    <meta name="description"
+        content="Personal portfolio of Tenzin Kunfel, BCA student and aspiring web developer, featuring projects in AI, Python, and modern web development.">
+    <!-- Google Fonts: Outfit (headings) & Inter (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Main Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <!-- Background Gradient Blob Shapes -->
+    <div class="bg-decor-container">
+        <!-- HTML-themed blob (orange/red) -->
+        <div class="bg-blob blob-html-1"></div>
+        <div class="bg-blob blob-html-2"></div>
+        <!-- CSS-themed blob (blue/indigo) -->
+        <div class="bg-blob blob-css-1"></div>
+        <div class="bg-blob blob-css-2"></div>
+        <!-- JS accent blob (soft yellow/gold) -->
+        <div class="bg-blob blob-js"></div>
+        <!-- Python/AI blob (teal/purple) -->
+        <div class="bg-blob blob-py"></div>
+    </div>
+
+    <!-- Frosted Navigation Bar -->
+    <header class="glass-navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-accent">T</span>enzin <span class="logo-accent">K</span>unfel
+            </a>
+            <nav class="nav-links">
+                <a href="#hero" class="nav-item active">Home</a>
+                <a href="#about" class="nav-item">About</a>
+                <a href="#skills" class="nav-item">Skills</a>
+                <a href="#projects" class="nav-item">Projects</a>
+                <a href="#contact" class="nav-item">Contact</a>
+            </nav>
+            <div class="nav-cta">
+                <a href="#contact" class="btn btn-secondary btn-sm">Let's Talk</a>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section scroll-reveal">
+            <div class="hero-glass-panel">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="pulse-dot"></span> Available for projects
+                    </div>
+                    <h1 class="hero-title">Hi, I’m <span class="gradient-text">Tenzin Kunfel</span></h1>
+                    <h2 class="hero-subtitle">BCA Student | Aspiring Web Developer | AI & Tech Enthusiast</h2>
+                    <p class="hero-intro">
+                        I am passionate about technology, web development, AI, and building impactful digital products.
+                        I enjoy learning new tools, solving problems, and creating meaningful user experiences.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary">
+                            <span>Contact Me</span>
+                            <i data-lucide="arrow-right" class="btn-icon"></i>
+                        </a>
+                        <a href="#skills" class="btn btn-secondary">
+                            <span>View Skills</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="glass-orb-wrapper">
+                        <!-- Futuristic Liquid Glass Orb -->
+                        <div class="glass-orb">
+                            <div class="orb-shine"></div>
+                            <div class="orb-glow"></div>
+                            <div class="orb-inner-wave"></div>
+                        </div>
+                        <div class="orb-floating-tag tag-html">
+                            <i data-lucide="code-2"></i>
+                            <span>HTML/CSS</span>
+                        </div>
+                        <div class="orb-floating-tag tag-python">
+                            <i data-lucide="terminal"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="orb-floating-tag tag-ai">
+                            <i data-lucide="cpu"></i>
+                            <span>AI Tools</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about-section scroll-reveal">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-glass-card">
+                <div class="about-grid">
+                    <div class="about-details">
+                        <p class="about-text">
+                            I am currently pursuing a <strong>Bachelor of Computer Applications (BCA)</strong>. I am
+                            building my skills in web development, Python programming, AI tools, and digital
+                            technologies. I am highly curious, adaptable, and motivated to grow in the tech industry
+                            while creating projects that solve real-world problems.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">BCA</span>
+                                <span class="stat-label">Education Focus</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">2026</span>
+                                <span class="stat-label">Graduation Year</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">Active</span>
+                                <span class="stat-label">Project Building</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-highlights">
+                        <h3 class="highlight-title">My Journey & Goals</h3>
+                        <ul class="highlight-list">
+                            <li>
+                                <div class="highlight-icon"><i data-lucide="compass"></i></div>
+                                <div class="highlight-content">
+                                    <h4>Constant Learning</h4>
+                                    <p>Exploring frontend frameworks, modern design systems, and programming paradigms.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="highlight-icon"><i data-lucide="sparkles"></i></div>
+                                <div class="highlight-content">
+                                    <h4>AI & Automation Integration</h4>
+                                    <p>Integrating AI-driven tools and workflows to build smart, efficient code
+                                        architectures.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="highlight-icon"><i data-lucide="users-2"></i></div>
+                                <div class="highlight-content">
+                                    <h4>Collaborative Mindset</h4>
+                                    <p>Eager to collaborate on open-source projects, learn from mentors, and grow with
+                                        teams.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section scroll-reveal">
+            <div class="section-header">
+                <h2 class="section-title">My Skills</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="skills-grid">
+                <!-- HTML Card -->
+                <div class="skill-glass-card">
+                    <div class="skill-icon-wrapper orange-glow">
+                        <i data-lucide="file-code"></i>
+                    </div>
+                    <h3 class="skill-name">HTML</h3>
+                    <p class="skill-desc">Structuring modern, accessible, and semantic web layouts.</p>
+                    <div class="skill-level-bar">
+                        <div class="level-fill" style="width: 90%"></div>
+                    </div>
+                </div>
+                <!-- CSS Card -->
+                <div class="skill-glass-card">
+                    <div class="skill-icon-wrapper blue-glow">
+                        <i data-lucide="palette"></i>
+                    </div>
+                    <h3 class="skill-name">CSS</h3>
+                    <p class="skill-desc">Styling with grid layouts, flexbox, glassmorphism, and custom keyframe
+                        animations.</p>
+                    <div class="skill-level-bar">
+                        <div class="level-fill" style="width: 85%"></div>
+                    </div>
+                </div>
+                <!-- JS Card -->
+                <div class="skill-glass-card">
+                    <div class="skill-icon-wrapper yellow-glow">
+                        <i data-lucide="braces"></i>
+                    </div>
+                    <h3 class="skill-name">JavaScript</h3>
+                    <span class="skill-badge">Beginner</span>
+                    <p class="skill-desc">Building client-side logic, interactivity, and dealing with dynamic APIs.</p>
+                    <div class="skill-level-bar">
+                        <div class="level-fill" style="width: 55%"></div>
+                    </div>
+                </div>
+                <!-- Python Card -->
+                <div class="skill-glass-card">
+                    <div class="skill-icon-wrapper python-glow">
+                        <i data-lucide="terminal"></i>
+                    </div>
+                    <h3 class="skill-name">Python</h3>
+                    <p class="skill-desc">Writing algorithms, data processing, backend scripts, and mini-applications.
+                    </p>
+                    <div class="skill-level-bar">
+                        <div class="level-fill" style="width: 70%"></div>
+                    </div>
+                </div>
+                <!-- Web Dev Card -->
+                <div class="skill-glass-card">
+                    <div class="skill-icon-wrapper purple-glow">
+                        <i data-lucide="laptop"></i>
+                    </div>
+                    <h3 class="skill-name">Web Development</h3>
+                    <p class="skill-desc">Designing, programming, and deploying modern responsive web architectures.</p>
+                    <div class="skill-level-bar">
+                        <div class="level-fill" style="width: 80%"></div>
+                    </div>
+                </div>
+                <!-- AI Tools Card -->
+                <div class="skill-glass-card">
+                    <div class="skill-icon-wrapper ai-glow">
+                        <i data-lucide="cpu"></i>
+                    </div>
+                    <h3 class="skill-name">AI Tools</h3>
+                    <p class="skill-desc">Leveraging LLMs, prompt engineering, and AI coding assistants for fast
+                        workflows.</p>
+                    <div class="skill-level-bar">
+                        <div class="level-fill" style="width: 85%"></div>
+                    </div>
+                </div>
+                <!-- Problem Solving Card -->
+                <div class="skill-glass-card">
+                    <div class="skill-icon-wrapper green-glow">
+                        <i data-lucide="brain-circuit"></i>
+                    </div>
+                    <h3 class="skill-name">Problem Solving</h3>
+                    <p class="skill-desc">Breaking down complex logical puzzles into modular algorithmic steps.</p>
+                    <div class="skill-level-bar">
+                        <div class="level-fill" style="width: 75%"></div>
+                    </div>
+                </div>
+                <!-- Team Collab Card -->
+                <div class="skill-glass-card">
+                    <div class="skill-icon-wrapper pink-glow">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <h3 class="skill-name">Team Collaboration</h3>
+                    <p class="skill-desc">Working effectively within project teams, active listening, and git sharing
+                        workflows.</p>
+                    <div class="skill-level-bar">
+                        <div class="level-fill" style="width: 80%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section scroll-reveal">
+            <div class="section-header">
+                <h2 class="section-title">Projects</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-glass-card">
+                    <div class="project-preview">
+                        <div class="project-mockup">
+                            <span class="mock-dot d1"></span>
+                            <span class="mock-dot d2"></span>
+                            <span class="mock-dot d3"></span>
+                            <div class="mock-browser-body">
+                                <div class="mock-glass-effect">
+                                    <div class="mock-orb-small"></div>
+                                    <div class="mock-hero-lines">
+                                        <div class="mock-line title"></div>
+                                        <div class="mock-line p1"></div>
+                                        <div class="mock-line p2"></div>
+                                    </div>
+                                    <div class="mock-cards-row">
+                                        <div class="mock-mini-card"></div>
+                                        <div class="mock-mini-card"></div>
+                                        <div class="mock-mini-card"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Featured Project</span>
+                        <h3 class="project-card-title">Personal Portfolio Website</h3>
+                        <p class="project-desc">
+                            A highly premium portfolio designed to showcase my capabilities. Built from scratch with
+                            semantically structured HTML5, custom styled Vanilla CSS for realistic glassmorphism depth,
+                            and Javascript animation controllers. Features Apple Vision Pro-inspired design styling,
+                            mouse-parallax layers, and smooth transitions.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">Vanilla CSS</span>
+                            <span class="tech-tag">Glassmorphism</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-secondary btn-sm">
+                                <span>Live Demo</span>
+                                <i data-lucide="external-link"></i>
+                            </a>
+                            <a href="#" class="btn-text">
+                                <span>View Source</span>
+                                <img src="github.png" alt="GitHub">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-glass-card">
+                    <div class="project-preview">
+                        <div class="project-mockup ai-mockup">
+                            <span class="mock-dot d1"></span>
+                            <span class="mock-dot d2"></span>
+                            <span class="mock-dot d3"></span>
+                            <div class="mock-browser-body">
+                                <div class="mock-glass-effect">
+                                    <div class="mock-ai-orb"></div>
+                                    <div class="mock-chat-bubble prompt"></div>
+                                    <div class="mock-chat-bubble response"></div>
+                                    <div class="mock-input-row"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">UI Concept</span>
+                        <h3 class="project-card-title">AI Website Prototype</h3>
+                        <p class="project-desc">
+                            An immersive web interface concept representing next-generation generative AI tools.
+                            Explores complex frosted glass structures, layered responsive dark grid systems, bright
+                            cyan/magenta neon edge refractions, and custom interactive dashboard visualizations built to
+                            display real-time artificial intelligence telemetry.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">UI Design</span>
+                            <span class="tech-tag">Modern CSS</span>
+                            <span class="tech-tag">Dynamic UI</span>
+                            <span class="tech-tag">Prototyping</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-secondary btn-sm">
+                                <span>Live Demo</span>
+                                <i data-lucide="external-link"></i>
+                            </a>
+                            <a href="#" class="btn-text">
+                                <span>View Source</span>
+                                <img src="github.png" alt="GitHub">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-glass-card">
+                    <div class="project-preview">
+                        <div class="project-mockup python-mockup">
+                            <span class="mock-dot d1"></span>
+                            <span class="mock-dot d2"></span>
+                            <span class="mock-dot d3"></span>
+                            <div class="mock-browser-body">
+                                <div class="mock-terminal-body">
+                                    <div class="mock-terminal-line command">python script.py</div>
+                                    <div class="mock-terminal-line success">✓ Loading modules... success</div>
+                                    <div class="mock-terminal-line info">▶ Initializing automation core...</div>
+                                    <div class="mock-terminal-line data">--- Data Extraction Complete (42 items) ---
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Python Development</span>
+                        <h3 class="project-card-title">Python Mini Projects</h3>
+                        <p class="project-desc">
+                            A curated suite of terminal-based utility applications and automation scripts. Includes a
+                            command-line interface password manager with custom hashing algorithms, interactive logic
+                            puzzles, web scraping automation routines, and data processing modules designed during my
+                            BCA academic exercises.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python 3</span>
+                            <span class="tech-tag">Automation</span>
+                            <span class="tech-tag">CLI Tools</span>
+                            <span class="tech-tag">Algorithms</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-secondary btn-sm">
+                                <span>View Repo</span>
+                                <img src="github.png" alt="GitHub">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section scroll-reveal">
+            <div class="section-header">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-layout">
+                <div class="contact-card info-card">
+                    <h3 class="contact-heading">Get In Touch</h3>
+                    <p class="contact-sub">Have a project in mind, a job opportunity, or just want to chat about AI and
+                        web technologies? Feel free to drop a message.</p>
+
+                    <div class="info-list">
+                        <div class="info-item">
+                            <div class="info-icon"><i data-lucide="user"></i></div>
+                            <div class="info-details">
+                                <span class="info-label">Name</span>
+                                <span class="info-value">Tenzin Kunfel</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i data-lucide="mail"></i></div>
+                            <div class="info-details">
+                                <span class="info-label">Email</span>
+                                <a href="mailto:ten.kun8424@gmail.com"
+                                    class="info-value link-accent">ten.kun8424@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><img src="linkedin.png" alt="LinkedIn"></div>
+                            <div class="info-details">
+                                <span class="info-label">LinkedIn</span>
+                                <a href="https://www.linkedin.com/in/tenzinkunfel" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="info-value link-accent">www.linkedin.com/in/tenzinkunfel</a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i data-lucide="map-pin"></i></div>
+                            <div class="info-details">
+                                <span class="info-label">Location</span>
+                                <span class="info-value">India</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+                            class="social-btn glass-btn-circle" aria-label="GitHub"><img src="github.png"
+                                alt="GitHub"></a>
+                        <a href="https://www.linkedin.com/in/tenzinkunfel" target="_blank" rel="noopener noreferrer"
+                            class="social-btn glass-btn-circle" aria-label="LinkedIn"><img src="linkedin.png"
+                                alt="LinkedIn"></a>
+                        <a href="mailto:ten.kun8424@gmail.com" class="social-btn glass-btn-circle" aria-label="Email"><i
+                                data-lucide="mail"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-card form-card">
+                    <form id="contactForm" class="contact-glass-form" novalidate>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="form_name">Full Name</label>
+                                <div class="input-wrapper">
+                                    <i data-lucide="user" class="input-icon"></i>
+                                    <input type="text" id="form_name" name="name" class="glass-input"
+                                        placeholder="Your name" required>
+                                </div>
+                                <span class="error-message">Please enter your name</span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="form_email">Email Address</label>
+                                <div class="input-wrapper">
+                                    <i data-lucide="mail" class="input-icon"></i>
+                                    <input type="email" id="form_email" name="email" class="glass-input"
+                                        placeholder="your.email@example.com" required>
+                                </div>
+                                <span class="error-message">Please enter a valid email address</span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="form_message">Message</label>
+                                <div class="input-wrapper textarea-wrapper">
+                                    <i data-lucide="message-square" class="input-icon textarea-icon"></i>
+                                    <textarea id="form_message" name="message" class="glass-input glass-textarea"
+                                        placeholder="How can I help you?" rows="5" required></textarea>
+                                </div>
+                                <span class="error-message">Please enter your message</span>
+                            </div>
+                        </div>
+                        <button type="submit" id="submitBtn" class="btn btn-primary btn-full">
+                            <span>Send Message</span>
+                            <i data-lucide="send" class="btn-icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Floating Success Toast Notification -->
+    <div id="toastNotification" class="glass-toast">
+        <div class="toast-content">
+            <div class="toast-icon-wrapper">
+                <i data-lucide="check-circle-2"></i>
+            </div>
+            <div class="toast-text">
+                <h4 class="toast-title">Message Sent!</h4>
+                <p class="toast-body">Thank you, Tenzin will get back to you soon.</p>
+            </div>
+            <button class="toast-close" id="closeToast" aria-label="Close Toast">
+                <i data-lucide="x"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top glass-btn-circle" aria-label="Back to top">
+        <i data-lucide="chevron-up"></i>
+    </button>
+
+    <footer class="glass-footer">
+        <div class="footer-container">
+            <p class="copyright">© 2026 Tenzin Kunfel. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
